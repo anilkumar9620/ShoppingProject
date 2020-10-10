@@ -1,0 +1,14 @@
+.Navigation{
+    text-decoration: none;
+    display:flex;
+    list-style: none;
+}
+
+.Navigation_lists{
+    margin-right: 25px;
+    font-size: 110%;
+}
+.Navigation_lists a{
+    text-decoration: none;
+    color:whitesmoke;
+}

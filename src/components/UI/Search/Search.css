@@ -1,0 +1,8 @@
+.Search{
+    width:40%;
+    height:30px;
+    border:1px solid orangered;
+    outline: none;
+    background-color: none;
+    border-radius: 100px;
+}

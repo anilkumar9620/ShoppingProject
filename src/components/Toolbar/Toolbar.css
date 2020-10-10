@@ -1,0 +1,8 @@
+.Toolbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    align-items: center;
+    background-color: blueviolet;
+    height:20vh;
+}
