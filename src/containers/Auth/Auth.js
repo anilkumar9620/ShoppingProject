@@ -6,8 +6,6 @@ import { Redirect } from 'react-router-dom';
 import Input from '../../components/UI/Input/Input';
 import classes from './Auth.css';
 
-//AIzaSyCUYN-alaGaa9jxbNoq3nu9pzOwwxgIsds
-
 class Auth extends Component {
     state = {
         controls: {
