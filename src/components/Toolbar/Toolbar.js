@@ -1,6 +1,6 @@
 import React from 'react';
 import Search from '../UI/Search/Search';
-import Navigation from '../UI/Navigation/Navigation';
+import Navigation from '../../containers/Navigation/Navigation';
 import classes from './Toolbar.css'
 import ImageHead from '../../assets/Image_head/Image_head';
 const toolbar = (props) => {

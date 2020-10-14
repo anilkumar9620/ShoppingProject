@@ -65,7 +65,6 @@ class Shopping extends Component {
 }
 
 const mapStateToProps = (state) => {
-    console.log(state);
     return {
         restaurants: state.rest.restaurants
     }

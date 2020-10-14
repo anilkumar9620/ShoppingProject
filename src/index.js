@@ -10,17 +10,18 @@ import { Provider } from 'react-redux';
 
 
 import restaurantsReducer from './store/reducers/restaurant';
+import authReducer from './store/reducers/Auth';
 
 const composeEnhancers = process.env.NODE_ENV === 'development' ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : null || compose;
 
 const rootReducer = combineReducers({
     rest: restaurantsReducer,
+    auth: authReducer
 });
 
 const store = createStore(rootReducer, composeEnhancers(
     applyMiddleware(thunk)
 ));
-console.log(store.getState())
 
 const app = (
     <Provider store={store}>
